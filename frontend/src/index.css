@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes neon-shine {
+  from {
+    opacity: 0;
+    left: 0%;
+    transform: skewX(-20deg);
+  }
+  
+  50% {
+    opacity: 1;
+    transform: skewX(-20deg);
+  }
+  
+  to {
+    opacity: 0;
+    left: 100%;
+    transform: skewX(-20deg);
+  }
+}
